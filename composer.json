@@ -1,0 +1,19 @@
+{
+    "name": "ayeps/wp-post-faker",
+    "description": "Generate fake post data during wordpress development",
+    "authors": [
+        {
+            "name": "Vlad",
+            "email": "vlad@ayeps.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AyepsFaker\\": "/"
+        }
+    },
+    "require": {
+        "fzaninotto/faker": "^1.8",
+        "bheller/images-generator": "^1.0"
+    }
+}
